@@ -1,0 +1,59 @@
+name: lab1
+description: "A new Flutter project."
+
+# Prevents accidental publishing to pub.dev.
+publish_to: 'none'  # Remove this line if you wish to publish to pub.dev.
+
+# Versioning: format - major.minor.patch+build_number
+version: 1.0.0+1
+
+# Dart SDK version compatibility
+environment:
+  sdk: ^3.6.0
+
+# Dependencies required for the project
+dependencies:
+  flutter:
+    sdk: flutter  # The core Flutter SDK dependency.
+
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  # Cupertino icons for iOS-style icons
+  cupertino_icons: ^1.0.8
+
+# Developer dependencies (for testing and linting)
+dev_dependencies:
+  flutter_test:
+    sdk: flutter  # Required for writing Flutter unit tests.
+  hive_generator: ^2.0.0
+  build_runner: ^2.4.4
+  # Linting package to enforce best practices in Flutter
+  flutter_lints: ^5.0.0
+
+# Flutter-specific configurations
+flutter:
+  uses-material-design: true  # Enables Material Design in the project.
+
+  # Assets section: Lists image files and other static resources
+  assets:
+    - assets/a.jpg
+    - assets/b.jpg 
+    - assets/c.jpg 
+    - assets/d.jpg 
+    - assets/e.jpg 
+
+ 
+     # Ensure this image is located inside the "assets/" folder
+
+  # To add multiple assets, use:
+  # assets:
+  #   - assets/image1.jpg
+  #   - assets/image2.png
+
+  # Fonts can be added here if required:
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
+  #       - asset: fonts/CustomFont-Bold.ttf
+  #         weight: 700
